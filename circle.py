@@ -2,6 +2,8 @@ import math#importing module math
 def Area(rad):  
     result = math.pi*(rad*rad)  #calculating area of the circle with user given radius input 
     print "The area of the circle is: %f"%result
+	
+	print "Adding extra print"
     
 while True:
     try:
